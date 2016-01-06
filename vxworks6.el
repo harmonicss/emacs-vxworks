@@ -71,14 +71,14 @@
 ;;   (load-file "<path-to-file>/vxworks.el")
 ;;   (setq vxworks-install-dir "<your vxworks install dir - with a trailing slash!>")
 ;;   (setq vxworks-workspace-dir "<your workspace directory - with a trailing slash!>")
-;;   (setup-vxworks-7-env) 
+;;   (setup-vxworks-6-env) 
 ;;
 ;;  for example:
 ;;
 ;;   (load-file "~/.emacs.d/lisp/vxworks.el")
-;;   (setq vxworks-install-dir "C:/WindRiver_vxw7.0/")
-;;   (setq vxworks-workspace-dir "C:/WindRiver_vxw7.0/workspace/")
-;;   (setup-vxworks-7-env) 
+;;   (setq vxworks-install-dir "C:/WindRiver_vxw6.9/")
+;;   (setq vxworks-workspace-dir "C:/WindRiver_vxw6.9/workspace/")
+;;   (setup-vxworks-6-env) 
 ;;
 ;; if you dont set vxworks-install-dir you will be asked for it at startup
 ;;
@@ -115,7 +115,7 @@
 
 (defvar vxworks-install-dir nil 
   "the VxWorks directory i.e. 
-WIND_HOME (e.g. \"C:\/WindRiver_vxw7.0\/\" needs a trailing slash)")
+WIND_HOME (e.g. \"C:\/WindRiver_vxw6.9\/\" needs a trailing slash)")
 
 (defvar vxworks-workspace-dir nil
   "the workspace directory")
